@@ -47,7 +47,7 @@
             zoomControl:true, maxZoom:17, minZoom:3
         }).fitBounds([[46.24493787473885,20.130583833360937],[46.260150208324056,20.163318512479098]]);
         var hash = new L.Hash(map);
-        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
+        map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" target="_blank" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org" target="_blank">QGIS</a> &middot; <a href="https://www.openstreetmap.org" target="_blank" title="OpenStreetMap Contributors">OSM Contributors</a> &middot; <a href="https://www.google.fr/intl/fr/earth/" target="_blank" title="Google Earth imagery">Google</a> &middot; <a href="http://terranis.fr/" target="_blank" title="TerraNIS SAS">©TerraNIS</a>');
         var autolinker = new Autolinker({truncate: {length: 30, location: 'smart'}});
         var measureControl = new L.Control.Measure({
             position: 'topleft',
